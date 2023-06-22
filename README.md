@@ -84,7 +84,7 @@ This example make use of the monitors subroutines to print "HELLO WORLD"
      13  f015		       28 20 23 1d*	      .byte.b	#$28, #$20, #$23, #$1d, #$15, #$00
 ```
 Although we will be running the example from memory location F000 we will have to enter the program at memory location F400 the reason for this is that we are using
-the A10 address line as "write enable" on the SRAM IC (we do not have the luxury of a write pin on the cartridge port). After the program is typed in we will then examine memory location F400 followed by the "R" command. ...
+the A10 address line as "write enable" on the SRAM IC (we do not have the luxury of a write pin on the cartridge port). After the program is typed in we will then examine memory location F000 followed by the "R" command. ...
 
 ```
 F400
