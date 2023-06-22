@@ -4,7 +4,7 @@ a Machine Language Monitor for the Atari 2600
 ![Screenshot](https://raw.githubusercontent.com/dadecoza/atari2600-monitor/main/docs/a26mon.gif)
 
 
-This is Steve Wozniaks Woz Monitor ported to the Atari 2600. For general information and usage of Wozmon you can checkout the excelent post on [SB-Projects page](https://www.sbprojects.net/projects/apple1/wozmon.php).
+This is Steve Wozniaks Woz Monitor ported to the Atari 2600. For general information and usage of Wozmon you can checkout the excelent post on [SB-Projects](https://www.sbprojects.net/projects/apple1/wozmon.php) page.
 
 ## Cartridge
 The cartridge makes use of the Commavid (CV) mapper.
@@ -21,7 +21,7 @@ without using bankswitching.  There's 2K of ROM and 1K of RAM.
 The read port is at 1000-13FF.
 The write port is at 1400-17FF.
 ```
-from: http://blog.kevtris.org/blogfiles/Atari%202600%20Mappers.txt
+From: http://blog.kevtris.org/blogfiles/Atari%202600%20Mappers.txt
 
 ## Keyboard controller layout
 The atari2600-monitor makes use of a standard CX50 keyboard controller. <br>
@@ -66,7 +66,7 @@ x x d z s z 3 x c
 ```
 
 ### Print HELLO WORLD
-This example makes use of the monitors subroutines to print "HELLO WORLD"
+This example make use of the monitors subroutines to print "HELLO WORLD"
 
 ```
       1  f015					      PROCESSOR	6502
